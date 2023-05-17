@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ = "__nain__":
+if __name__ == "__nain__":
     from add_0 import add
 
     a = 1
