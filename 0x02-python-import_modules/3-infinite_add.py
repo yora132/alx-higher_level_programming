@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from sys import argv
+import sys
 add = 0
-for i in argv[1:]:
-    add += int(i)
-print("{:d}".format(add))
+for i in range(len(sys.argv) - 1):
+    add += int(sys.argv[i + 1])
+print("{}".format(add))
