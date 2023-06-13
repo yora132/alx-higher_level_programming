@@ -1,5 +1,6 @@
-
-n that appends a string
+#!/usr/bin/python3
+"""
+function that appends a string
 """
 
 
